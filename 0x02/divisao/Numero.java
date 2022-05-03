@@ -1,4 +1,4 @@
-package divisao;
+
 
 public class Numero {
     public static int dividir(int a, int b)

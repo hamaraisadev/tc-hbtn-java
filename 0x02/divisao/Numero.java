@@ -15,7 +15,7 @@ public class Numero {
             }
         }
         catch (Exception e){
-            System.out.println("Não eh possível dividir por zero");
+            System.out.print("Não eh possível dividir por zero");
 
         }finally {
             System.out.println("");

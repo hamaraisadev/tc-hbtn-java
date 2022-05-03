@@ -1,4 +1,4 @@
-
+package divisao;
 
 public class Numero {
     public static int dividir(int a, int b)
@@ -10,7 +10,7 @@ public class Numero {
                 return a/b;
             }
             else {
-                System.out.println(a/b);
+                System.out.print(a/b);
                 return 0;
             }
         }

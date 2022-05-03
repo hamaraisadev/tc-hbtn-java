@@ -15,10 +15,10 @@ public class Numero {
             }
         }
         catch (Exception e){
-            System.out.print("Não eh possível dividir por zero");
+            System.out.println("Não eh possível dividir por zero");
 
         }finally {
-            System.out.println("");
+            System.out.print("");
         }
 
         return 0;

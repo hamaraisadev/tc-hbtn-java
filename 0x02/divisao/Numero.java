@@ -1,4 +1,4 @@
-
+package divisao;
 
 public class Numero {
     public static int dividir(int a, int b)
@@ -16,8 +16,12 @@ public class Numero {
         }
         catch (Exception e){
             System.out.println("Não eh possível dividir por zero");
+
+        }finally {
+            System.out.println("");
         }
 
         return 0;
     }
 }
+

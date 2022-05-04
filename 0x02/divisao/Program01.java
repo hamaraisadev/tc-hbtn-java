@@ -1,6 +1,6 @@
 
 
-public class Program {
+public class Program01 {
     public static void main(String[] args) {
 
         Numero div = new Numero();

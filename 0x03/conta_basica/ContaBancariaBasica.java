@@ -1,7 +1,3 @@
-package conta_basica;
-
-
-
 import exceptions.*;
 
 public class ContaBancariaBasica {

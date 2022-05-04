@@ -1,4 +1,4 @@
-
+package excepetions;
 
 public class AutorInvalidoException extends Exception{
 

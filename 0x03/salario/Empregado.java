@@ -10,6 +10,7 @@ public class Empregado {
     }
     public Empregado(double salarioFixo)
     {
+
         this.salarioFixo = salarioFixo;
     }
     public double calcularBonus(Departamento departamento)

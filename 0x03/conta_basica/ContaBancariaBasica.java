@@ -1,6 +1,8 @@
+package conta_basica;
+
+
+
 import exceptions.*;
-
-
 
 public class ContaBancariaBasica {
 
@@ -13,9 +15,9 @@ public class ContaBancariaBasica {
         this.taxaJurosAnual = taxaJurosAnual;
     }
 
-    public void depositar(double valor) throws OperacaoInvalidaException{
-        if(valor < 0){
-            throw new OperacaoInvalidaException("Valor para depositar deve ser maior que 0");
+    public void depositar(double valor) throws OperacaoInvalidaException {
+        if(valor <= 0){
+            throw new OperacaoInvalidaException("Valor para deposito deve ser maior que 0");
         }else {
             saldo = saldo + valor;
         }
@@ -23,7 +25,7 @@ public class ContaBancariaBasica {
 
     public void sacar(double valor) throws OperacaoInvalidaException {
         if(valor <= 0) {
-            throw new OperacaoInvalidaException("valor de saque deve ser menor que 0");
+            throw new OperacaoInvalidaException("Valor de saque deve ser menor que 0");
         }
         if (saldo < valor) {
             throw new OperacaoInvalidaException("Valor de saque deve ser menor que o saldo atual");

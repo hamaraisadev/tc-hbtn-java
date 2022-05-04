@@ -1,4 +1,4 @@
-package conta_basica.exceptions;
+package exceptions;
 
 
 public class OperacaoInvalidaException extends Exception {

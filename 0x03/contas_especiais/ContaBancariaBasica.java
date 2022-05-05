@@ -1,7 +1,5 @@
 import exceptions.*;
 
-
-
 public class ContaBancariaBasica {
 
     public String numeracao;

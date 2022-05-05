@@ -1,8 +1,8 @@
+package encapsulamento;
 
-
-public class Program {
+public class Program2 {
     public static void main(String[] args) {
-        PersonagemGame personagem1 = new PersonagemGame();
+        PersonagemGame1 personagem1 = new PersonagemGame1();
 
         personagem1.setNome("Sonic");
         personagem1.setSaudeAtual(10);

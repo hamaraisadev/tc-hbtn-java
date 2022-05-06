@@ -1,6 +1,6 @@
 
 
-import pedido_livraria.produtos.Produto;
+
 
 public class ItemPedido {
 

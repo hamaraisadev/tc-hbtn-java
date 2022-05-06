@@ -1,4 +1,4 @@
-
+import produtos.*;
 
 public class Pedido {
     public double percentualDesconto;

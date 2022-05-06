@@ -1,4 +1,4 @@
-
+import java.util.Locale;
 
 public class Program {
      Locale.setDefault(new Locale("pt", "BR"));

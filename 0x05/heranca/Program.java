@@ -9,7 +9,7 @@ public class Program {
 
         System.out.println("meuAnimal eh um " + meuAnimal.getClass().getSimpleName());
         System.out.println("meuCachorro eh um " + meuCachorro.getClass().getSimpleName());
-        System.out.println("objeto eh um " + obj.getClass().getSimpleName());
+        System.out.println("obj eh um " + obj.getClass().getSimpleName());
         System.out.println("umOutroAnimal eh um " + umOutroAnimal.getClass().getSimpleName());
     }
 }

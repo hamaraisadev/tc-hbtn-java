@@ -1,4 +1,6 @@
+package retangulo_completo;
 
+import quadrado.FormaGeometrica;
 
 public class Retangulo extends FormaGeometrica {
     private double largura;

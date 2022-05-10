@@ -1,12 +1,11 @@
-import atividade.Atividade;
-import atividade.CarregarVideo;
+import atividades.Atividade;
 
 import java.util.ArrayList;
 
 public class Workflow {
     ArrayList<Atividade> atividade = new ArrayList<>();
     public  void registrarAtividade(Atividade atividade){
-            this.atividade.add(atividade);
+        this.atividade.add(atividade);
     }
 
 }

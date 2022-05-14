@@ -1,8 +1,9 @@
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.List;
 
 public class Pedido {
-    public List<PedidoCookie> cookies;
+    private ArrayList<PedidoCookie> cookies;
 
     public Pedido() {
         this.cookies = new ArrayList<>();

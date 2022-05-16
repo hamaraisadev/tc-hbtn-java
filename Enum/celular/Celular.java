@@ -15,9 +15,7 @@ public class Celular {
         this.contatos = contatos;
     }
 
-    public int buscarPosicaoContato(String contatoNome) {
-        return contatos.indexOf(contatoNome);
-    }
+
 
 
     public void adicionarContato(Contato contatoAdd) {
@@ -51,29 +49,29 @@ public class Celular {
 
     public void listarContatos() {
         for (Contato contato : contatos) {
-            System.out.println(contato.getNome() + " -> " + contato.getNumero() + " (" + contato.getTipo() + ")");
+            System.out.println(contato.getNome() + "  ->  " + contato.getNumero() + " (" + contato.getTipo() + ")");
         }
     }
 
-    public void atualizarContato(Contato contatoAntigo, Contato contatoNovo) {
+    public void atualizarContato(Contato contatoAntigo, Contato novoContato) {
         for (Contato contato : contatos) {
-            if (contato.getNome().equals(contatoNovo.getNome()) && !contato.getNome().equals(contatoAntigo.getNome())) {
+            if (contato.getNome().equals(novoContato.getNome()) && !contato.getNome().equals(contatoAntigo.getNome())) {
                 throw new IllegalArgumentException("Nao foi possivel modificar contato. Contato jah existente com esse nome");
             }
-            if (!(contatoAntigo.getNome().equals(contatoNovo.getNome()))) {
+            if (!(contatoAntigo.getNome().equals(novoContato.getNome()))) {
                 throw new IllegalArgumentException("Nao foi possivel remover contato. Contato nao existe");
             }
         }
 
         for (int i = 0; i < contatos.size(); i++) {
             if (contatos.get(i).getNome().equals(contatoAntigo.getNome())) {
-                contatos.get(i).setNumero(contatoNovo.getNumero());
-                contatos.get(i).setTipo(contatoNovo.getTipo());
+                contatos.get(i).setNumero(novoContato.getNumero());
+                contatos.get(i).setTipo(novoContato.getTipo());
             }
         }
     }
 
-    public List<Contato> buscarContato(String nomeContatosListados) {
+    public List<Contato> obterPosicaoContato(String nomeContatosListados) {
 
         for (Contato contato : contatos) {
 

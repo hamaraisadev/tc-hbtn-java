@@ -49,7 +49,7 @@ public class Celular {
 
     public void listarContatos() {
         for (Contato contato : contatos) {
-            System.out.println(contato.getNome() + " -> " + contato.getNumero() + " (" + contato.getTipo() + ")");
+            System.out.println(contato.getNome() +" -> " + contato.getNumero() + " (" + contato.getTipo() + ")");
         }
     }
 

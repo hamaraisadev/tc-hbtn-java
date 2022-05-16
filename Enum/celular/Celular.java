@@ -59,7 +59,7 @@ public class Celular {
                 throw new IllegalArgumentException("Nao foi possivel modificar contato. Contato jah existente com esse nome");
             }
             if (!(contatoAntigo.getNome().equals(novoContato.getNome()))) {
-                throw new IllegalArgumentException("Nao foi possivel remover contato. Contato nao existe");
+                throw new IllegalArgumentException("Nao foi possivel modificar contato. Contato nao existe");
             }
         }
 
